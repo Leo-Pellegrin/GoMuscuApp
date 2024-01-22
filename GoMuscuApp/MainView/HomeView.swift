@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct HomeView: View {    
+struct HomeView: View {
     @State private var dailyGoals: [DailyGoal] = DailyGoal.initData()
 
     var body: some View {
-        DDailyGoalsView(dailyGoal: $dailyGoals)
+        DailyGoalsView(dailyGoal: $dailyGoals)
     }
 }
 

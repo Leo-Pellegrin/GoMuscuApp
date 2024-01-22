@@ -11,6 +11,13 @@
 		020163BC2B551E6B0079B338 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163BB2B551E6B0079B338 /* ContentView.swift */; };
 		020163BE2B551E6C0079B338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020163BD2B551E6C0079B338 /* Assets.xcassets */; };
 		020163C12B551E6C0079B338 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020163C02B551E6C0079B338 /* Preview Assets.xcassets */; };
+		020163C82B568FE60079B338 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163C72B568FE60079B338 /* TabBar.swift */; };
+		020163D22B5E71BD0079B338 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163D12B5E71BD0079B338 /* Theme.swift */; };
+		020163D42B5E720C0079B338 /* DailyGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163D32B5E720C0079B338 /* DailyGoal.swift */; };
+		020163D62B5E73660079B338 /* CardDailyGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163D52B5E73660079B338 /* CardDailyGoal.swift */; };
+		020163D82B5E772C0079B338 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163D72B5E772C0079B338 /* CircularProgressView.swift */; };
+		020163DE2B5E79A30079B338 /* DailyGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163DD2B5E79A30079B338 /* DailyGoalsView.swift */; };
+		020163E02B5E81230079B338 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163DF2B5E81230079B338 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		020163BB2B551E6B0079B338 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		020163BD2B551E6C0079B338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020163C02B551E6C0079B338 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		020163C72B568FE60079B338 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		020163D12B5E71BD0079B338 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		020163D32B5E720C0079B338 /* DailyGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoal.swift; sourceTree = "<group>"; };
+		020163D52B5E73660079B338 /* CardDailyGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDailyGoal.swift; sourceTree = "<group>"; };
+		020163D72B5E772C0079B338 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		020163DD2B5E79A30079B338 /* DailyGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoalsView.swift; sourceTree = "<group>"; };
+		020163DF2B5E81230079B338 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +67,13 @@
 			children = (
 				020163B92B551E6B0079B338 /* GoMuscuAppApp.swift */,
 				020163BB2B551E6B0079B338 /* ContentView.swift */,
+				020163C72B568FE60079B338 /* TabBar.swift */,
+				020163E22B5E96960079B338 /* StartActivity */,
 				020163BD2B551E6C0079B338 /* Assets.xcassets */,
 				020163BF2B551E6C0079B338 /* Preview Content */,
+				020163E12B5E815C0079B338 /* MainView */,
+				020163D92B5E79420079B338 /* Models */,
+				020163DA2B5E79530079B338 /* DailyGoals */,
 			);
 			path = GoMuscuApp;
 			sourceTree = "<group>";
@@ -65,6 +84,40 @@
 				020163C02B551E6C0079B338 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		020163D92B5E79420079B338 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				020163D32B5E720C0079B338 /* DailyGoal.swift */,
+				020163D12B5E71BD0079B338 /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		020163DA2B5E79530079B338 /* DailyGoals */ = {
+			isa = PBXGroup;
+			children = (
+				020163D52B5E73660079B338 /* CardDailyGoal.swift */,
+				020163D72B5E772C0079B338 /* CircularProgressView.swift */,
+				020163DD2B5E79A30079B338 /* DailyGoalsView.swift */,
+			);
+			path = DailyGoals;
+			sourceTree = "<group>";
+		};
+		020163E12B5E815C0079B338 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				020163DF2B5E81230079B338 /* HomeView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		020163E22B5E96960079B338 /* StartActivity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StartActivity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020163E02B5E81230079B338 /* HomeView.swift in Sources */,
+				020163C82B568FE60079B338 /* TabBar.swift in Sources */,
+				020163D22B5E71BD0079B338 /* Theme.swift in Sources */,
+				020163D42B5E720C0079B338 /* DailyGoal.swift in Sources */,
+				020163DE2B5E79A30079B338 /* DailyGoalsView.swift in Sources */,
+				020163D82B5E772C0079B338 /* CircularProgressView.swift in Sources */,
 				020163BC2B551E6B0079B338 /* ContentView.swift in Sources */,
+				020163D62B5E73660079B338 /* CardDailyGoal.swift in Sources */,
 				020163BA2B551E6B0079B338 /* GoMuscuAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
