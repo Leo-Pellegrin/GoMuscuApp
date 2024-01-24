@@ -15,7 +15,6 @@ struct TabBar: View {
                      .tabItem {
                          Image(systemName: "house")
                      }
-                     .padding(.horizontal, 8)
 
                  Text("Content second page")
                      .tabItem {
@@ -28,7 +27,6 @@ struct TabBar: View {
                      }
             }
         }
-        .padding(.bottom, -30)
     }
 }
 

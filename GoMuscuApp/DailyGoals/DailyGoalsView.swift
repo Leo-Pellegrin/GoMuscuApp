@@ -17,13 +17,15 @@ struct DailyGoalsView: View {
                 VStack {
                     Text("Your daily goal")
                         .bold()
+                        .foregroundStyle(Color.primary)
                     Text("Last 7 days")
                         .font(.subheadline)
                         .foregroundStyle(.gray)
-                        .padding(.bottom, 35)
+                        .padding(.bottom, 20)
+                        .foregroundStyle(Color.primary)
 
                 }
-                .padding(.leading, 30)
+                .padding(.leading, 20)
                 .padding(.top, 20)
                 
                 Spacer()
@@ -51,7 +53,7 @@ struct DailyGoalsView: View {
                         .padding(.leading, 10)
                 }
             }
-            .padding(.leading, 15)
+            .padding(.leading, 10)
             .padding(.bottom, 15)
         }
         .background(

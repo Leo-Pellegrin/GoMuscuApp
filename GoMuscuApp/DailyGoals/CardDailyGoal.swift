@@ -16,6 +16,7 @@ struct CardDailyGoal: View {
                 .frame(width: 30, height: 30)
             Text(dailygoal.day.rawValue.prefix(3))
                 .padding(.top, 5)
+                .foregroundStyle(Color.primary)
         }
     }
     

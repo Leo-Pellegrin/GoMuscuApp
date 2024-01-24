@@ -18,6 +18,14 @@
 		020163D82B5E772C0079B338 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163D72B5E772C0079B338 /* CircularProgressView.swift */; };
 		020163DE2B5E79A30079B338 /* DailyGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163DD2B5E79A30079B338 /* DailyGoalsView.swift */; };
 		020163E02B5E81230079B338 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163DF2B5E81230079B338 /* HomeView.swift */; };
+		020163E42B5E9AED0079B338 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163E32B5E9AED0079B338 /* Activities.swift */; };
+		020163E62B5EB1AF0079B338 /* ActivityIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163E52B5EB1AF0079B338 /* ActivityIcons.swift */; };
+		020163E92B5EB6100079B338 /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163E82B5EB6100079B338 /* ActivitiesView.swift */; };
+		020163EC2B5ED81D0079B338 /* LastWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163EB2B5ED81D0079B338 /* LastWorkoutView.swift */; };
+		020163EE2B5ED8FC0079B338 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020163ED2B5ED8FC0079B338 /* Workout.swift */; };
+		0251812B2B5FE5EC00E8C45B /* StatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251812A2B5FE5EC00E8C45B /* StatBar.swift */; };
+		025181312B60F46400E8C45B /* DailyStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025181302B60F46400E8C45B /* DailyStatsView.swift */; };
+		025181332B6101F700E8C45B /* PopUpNewActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025181322B6101F700E8C45B /* PopUpNewActivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +41,14 @@
 		020163D72B5E772C0079B338 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		020163DD2B5E79A30079B338 /* DailyGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoalsView.swift; sourceTree = "<group>"; };
 		020163DF2B5E81230079B338 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		020163E32B5E9AED0079B338 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		020163E52B5EB1AF0079B338 /* ActivityIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIcons.swift; sourceTree = "<group>"; };
+		020163E82B5EB6100079B338 /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
+		020163EB2B5ED81D0079B338 /* LastWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastWorkoutView.swift; sourceTree = "<group>"; };
+		020163ED2B5ED8FC0079B338 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		0251812A2B5FE5EC00E8C45B /* StatBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatBar.swift; sourceTree = "<group>"; };
+		025181302B60F46400E8C45B /* DailyStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyStatsView.swift; sourceTree = "<group>"; };
+		025181322B6101F700E8C45B /* PopUpNewActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpNewActivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +84,13 @@
 				020163B92B551E6B0079B338 /* GoMuscuAppApp.swift */,
 				020163BB2B551E6B0079B338 /* ContentView.swift */,
 				020163C72B568FE60079B338 /* TabBar.swift */,
+				020163EA2B5ED7FD0079B338 /* LastActivity */,
 				020163E22B5E96960079B338 /* StartActivity */,
 				020163BD2B551E6C0079B338 /* Assets.xcassets */,
 				020163BF2B551E6C0079B338 /* Preview Content */,
 				020163E12B5E815C0079B338 /* MainView */,
 				020163D92B5E79420079B338 /* Models */,
+				025181292B5FE57D00E8C45B /* DailyStats */,
 				020163DA2B5E79530079B338 /* DailyGoals */,
 			);
 			path = GoMuscuApp;
@@ -91,6 +109,8 @@
 			children = (
 				020163D32B5E720C0079B338 /* DailyGoal.swift */,
 				020163D12B5E71BD0079B338 /* Theme.swift */,
+				020163E32B5E9AED0079B338 /* Activities.swift */,
+				020163ED2B5ED8FC0079B338 /* Workout.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -116,8 +136,28 @@
 		020163E22B5E96960079B338 /* StartActivity */ = {
 			isa = PBXGroup;
 			children = (
+				020163E52B5EB1AF0079B338 /* ActivityIcons.swift */,
+				020163E82B5EB6100079B338 /* ActivitiesView.swift */,
+				025181322B6101F700E8C45B /* PopUpNewActivity.swift */,
 			);
 			path = StartActivity;
+			sourceTree = "<group>";
+		};
+		020163EA2B5ED7FD0079B338 /* LastActivity */ = {
+			isa = PBXGroup;
+			children = (
+				020163EB2B5ED81D0079B338 /* LastWorkoutView.swift */,
+			);
+			path = LastActivity;
+			sourceTree = "<group>";
+		};
+		025181292B5FE57D00E8C45B /* DailyStats */ = {
+			isa = PBXGroup;
+			children = (
+				0251812A2B5FE5EC00E8C45B /* StatBar.swift */,
+				025181302B60F46400E8C45B /* DailyStatsView.swift */,
+			);
+			path = DailyStats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,14 +230,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020163E62B5EB1AF0079B338 /* ActivityIcons.swift in Sources */,
+				020163EC2B5ED81D0079B338 /* LastWorkoutView.swift in Sources */,
 				020163E02B5E81230079B338 /* HomeView.swift in Sources */,
 				020163C82B568FE60079B338 /* TabBar.swift in Sources */,
+				020163E92B5EB6100079B338 /* ActivitiesView.swift in Sources */,
+				025181332B6101F700E8C45B /* PopUpNewActivity.swift in Sources */,
 				020163D22B5E71BD0079B338 /* Theme.swift in Sources */,
 				020163D42B5E720C0079B338 /* DailyGoal.swift in Sources */,
 				020163DE2B5E79A30079B338 /* DailyGoalsView.swift in Sources */,
 				020163D82B5E772C0079B338 /* CircularProgressView.swift in Sources */,
+				0251812B2B5FE5EC00E8C45B /* StatBar.swift in Sources */,
+				020163EE2B5ED8FC0079B338 /* Workout.swift in Sources */,
 				020163BC2B551E6B0079B338 /* ContentView.swift in Sources */,
+				025181312B60F46400E8C45B /* DailyStatsView.swift in Sources */,
 				020163D62B5E73660079B338 /* CardDailyGoal.swift in Sources */,
+				020163E42B5E9AED0079B338 /* Activities.swift in Sources */,
 				020163BA2B551E6B0079B338 /* GoMuscuAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
